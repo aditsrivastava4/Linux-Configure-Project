@@ -28,9 +28,9 @@ Installing all the required softwares for this project.
    * SSH is configured to not allow [remote login to root](https://serverfault.com/questions/178080/how-do-i-disable-root-login-in-ubuntu).
 2. [UFW Configuration](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 
-    * UFW is configured allow incoming port 80 (HTTP).
-    * UFW is configured allow incoming port 123 (NTP).
-    * UFW is configured allow incoming port 2200 (Custom SSH port).
+    * UFW is configured allow incoming on port 80 (HTTP).
+    * UFW is configured allow incoming on port 123 (NTP).
+    * UFW is configured allow incoming on port 2200 (Custom SSH port).
     * UFW is configured allow outgoing on all ports.
 
 ## Apache Configuration
