@@ -20,8 +20,13 @@ Installing all the required softwares for this project.
 * [**Postgresql**](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
 
 ## Step 2
-### Configuring **SSH** and **UFW**(Uncomplicated Firewall)
+### Configuring **SSH**(Secure Shell) and **UFW**(Uncomplicated Firewall)
+1. SSH Configuration
 
+   * SSH is configured to allow ssh on port 2200 instead of default port 22 by this it reduces the chance of SSH brute force attacks.
+   * SSH is configured to only allow RSA key based authentication no password based authentication.
+   * SSH is configured to not allow remote login to root.
+2. UFW Configuration
 
 ## Apache Configuration
 
