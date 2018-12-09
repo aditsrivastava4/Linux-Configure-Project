@@ -33,10 +33,3 @@ Installing all the required softwares for this project.
     * UFW is configured allow incoming on port 2200 (Custom SSH port).
     * UFW is configured allow outgoing on all ports.
 
-## Apache Configuration
-
-Apache is configured to serve two **WSGI** applications.
-* Item Catalog Application
-* Neighbourhood Map Application
-
-By creating different process group for each application.
