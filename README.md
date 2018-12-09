@@ -23,10 +23,15 @@ Installing all the required softwares for this project.
 ### Configuring **SSH**(Secure Shell) and **UFW**(Uncomplicated Firewall)
 1. SSH Configuration
 
-   * SSH is configured to allow ssh on port 2200 instead of default port 22 by this it reduces the chance of SSH brute force attacks.
-   * SSH is configured to only allow RSA key based authentication no password based authentication.
-   * SSH is configured to not allow remote login to root.
-2. UFW Configuration
+   * SSH is configured to allow ssh on port 2200 instead of default port 22 by this it reduces the chance of SSH brute force attacks. ([How to Change SSH port](https://in.godaddy.com/help/changing-the-ssh-port-for-your-linux-server-7306))
+   * SSH is configured to only allow [RSA key based authentication](https://askubuntu.com/questions/346857/how-do-i-force-ssh-to-only-allow-users-with-a-key-to-log-in) no password based authentication.
+   * SSH is configured to not allow [remote login to root](https://serverfault.com/questions/178080/how-do-i-disable-root-login-in-ubuntu).
+2. [UFW Configuration](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+
+    * UFW is configured allow incoming port 80 (HTTP).
+    * UFW is configured allow incoming port 123 (NTP).
+    * UFW is configured allow incoming port 2200 (Custom SSH port).
+    * UFW is configured allow outgoing on all ports.
 
 ## Apache Configuration
 
