@@ -33,3 +33,8 @@ Installing all the required softwares for this project.
     * UFW is configured allow incoming on port 2200 (Custom SSH port).
     * UFW is configured allow outgoing on all ports.
 
+## Step 3
+### Configuring Apache2 to serve Flask app with mod_wsgi
+1. Creating WSGIProcessGroup for both Item Catalog and Neighbourhod Map apps.
+2. Creating WSGI file for both [Item Catalog](Item_Catalog/myapp.wsgi) and Neighbourhod Map apps.
+3. 
