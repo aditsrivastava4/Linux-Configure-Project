@@ -35,6 +35,6 @@ Installing all the required softwares for this project.
 
 ## Step 3
 ### Configuring Apache2 to serve Flask app with mod_wsgi
-1. Creating WSGIProcessGroup for both Item Catalog and Neighbourhod Map apps.
+1. Creating WSGIProcessGroup for both [Item Catalog Project](https://github.com/aditsrivastava4/Item_Catalog) and [Neighbourhod Map Project](https://github.com/aditsrivastava4/neighbourhood-map).
 2. Creating WSGI file for both [Item Catalog](Item_Catalog/myapp.wsgi) and [Neighbourhod Map](neighbourhood-map/myapp2.wsgi) apps.
 3. 
