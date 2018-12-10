@@ -12,12 +12,18 @@ This project is to configure Linux Server on [**Amazon Lightsail**](https://aws.
 Installing all the required softwares for this project.
 
 * [**apache2**](https://tutorials.ubuntu.com/tutorial/install-and-configure-apache#0) 
+
+    To serve HTTP applications.
 * [**mod_wsgi**](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/) 
+
+    To serve flask application with **WSGI**.
 
     1. [**libapache2-mod-wsgi-py3**](https://stackoverflow.com/questions/19344252/how-to-install-configure-mod-wsgi-for-py3) for python3 based application.
     2. **libapache2-mod-wsgi** for python2 based application
 
 * [**Postgresql**](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+
+    To host data for Item Catalog Project.
 
 ## Step 2
 ### Configuring **SSH**(Secure Shell) and **UFW**(Uncomplicated Firewall)
@@ -44,4 +50,11 @@ Configuring Apache2 to serve two flask Applications.
 1. Creating WSGIProcessGroup for both Item Catalog Project and Neighbourhod Map Project.
 2. Creating WSGI file for both [Item Catalog](Item_Catalog/myapp.wsgi) and [Neighbourhod Map](neighbourhood-map/myapp2.wsgi) apps.
 3. Setting WSGIScriptAlias for both apps.
-4. Giving <Directory> permission for both apps.
+4. Giving permission to apache2 to access all required directories and files for both apps.
+
+
+## Acknowledgment
+* [StackExchange Communities](https://stackexchange.com/sites)
+* [Digital Ocean](https://www.digitalocean.com/)
+* [GoDaddy](https://in.godaddy.com)
+* [Ubuntu](https://tutorials.ubuntu.com)
