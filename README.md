@@ -16,7 +16,7 @@ Installing all the required softwares for this project.
     To serve HTTP applications.
 * [**mod_wsgi**](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/) 
 
-    To serve flask application with **WSGI**.
+    To serve flask application as **WSGI** application.
 
     1. [**libapache2-mod-wsgi-py3**](https://stackoverflow.com/questions/19344252/how-to-install-configure-mod-wsgi-for-py3) for python3 based application.
     2. **libapache2-mod-wsgi** for python2 based application
